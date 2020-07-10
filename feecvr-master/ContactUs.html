@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us</title>
+    <link href="CSS/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <a href="index.html" class="navbar-brand">CVRCE</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <span class="mr-auto"></span>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <i class="fa fa-home" aria-hidden="true"></i> Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="AboutUs.html" class="nav-link">
+                        <i class="fa fa-info" aria-hidden="true"></i>
+                        About Us
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="ContactUs.html" class="nav-link">
+                        <i class="fa fa-address-card" aria-hidden="true"></i>
+                        Contact Us
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#loginModal" class="nav-link" data-toggle="modal">
+                        Login
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="modal" id="loginModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Login</h3>
+                </div>
+                <div class="modal-body">
+                    <form action="#">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" placeholder="Enter Email" id="email">
+                            <div class="form-group">
+                                <label for="password">
+                                    Password
+                                </label>
+                                <input type="password" class="form-control" placeholder="Enter Password" id="password">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-dismiss="modal">X</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding-top:55px;">
+        <p class ="h1">Contact Information</p>
+        <hr/>
+    </div>
+        
+    <div class="container">
+        <p id="text1" style="display : block">Loding...</p>
+        <p id="text2" style="display : block">Loding...</p>
+        <p id="text3" style="display : block">Loding...</p>
+        <div id="box1" class="card" style="width:300px; float:left;margin:10px;display : none">
+
+            <div class="card-body">
+                <p class="h4">Leave your info here </p>
+            </div>
+            <div class="card-footer">
+                <form action="#">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" placeholder="Enter Email" id="email" required>
+                        <div class="form-group">
+                            <label for="Name">
+                                Name
+                            </label>
+                            <input type="text" class="form-control" placeholder="Enter Name" id="name" required>
+                            <label for="Message">
+                                Message
+                            </label>
+                            <textarea name="message" rows="3" cols="10" class="form-control" id="message_send"></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" class="btn-primary float-right">                    
+                </form>
+            </div>
+        </div>
+        <div id="box2" class="card" style="width:300px; float:left;margin:10px;display : none">
+
+            <div class="card-body">
+                <p class="h4"><i class="fa fa-address-card"></i> Campus Address</p>
+            </div>
+            <div class="card-footer">
+                <p class="text-justify">                    
+                CVR College Of Engineering,
+                Vastunagar, Mangalpalli (V), Ibrahimpatnam (M),
+                Rangareddy (D), Telangana 501 510
+                </p>
+                <i class="fa fa-phone"></i> :08414 661 601
+                <br><br/>
+                <a href="https://www.google.com/maps/place/CVR+College+Of+Engineering/@17.1964133,78.5950622,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcba659868b4727:0xf39a771705e23170!8m2!3d17.1964133!4d78.5972509" target="_blank"><button class="btn-primary">Location</button></a>
+
+            </div>
+        </div>
+        <div  id="box3" class="card" style="width:300px; float:left;margin:10px;display : none">
+
+            <div class="card-body">
+                <p class="h4"><i class="fa fa-address-card"></i> City Office</p>
+            </div>
+            <div class="card-footer">
+                <p class="text-justify">                    
+#201 & 202, Ashoka Scintilla,
+above Mebaz and opp. Malabar Gold & Diamonds,
+Himayat Nagar,
+Hyderabad, Telangana 500 029 
+</p>
+                    <i class="fa fa-phone"></i> :040-42204001,42204002
+                    <br/>
+                    <i class="fa fa-mobile"></i> :99898 23424
+                    <br>
+                    <br/>
+                    <a href="https://goo.gl/maps/homzENdMJ1N2" target="_blank"><button class="btn-primary" >Location</button></a> 
+            </div>
+        </div>
+    <div class="jumbotron bg-dark" style="clear:both;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 align-self-center">
+                    <p class="text-primary text-center h5">
+                        &copy; copyrights 2020 CVR College of Engineering
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3811.460853988679!2d78.59506221435072!3d17.196418412812296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba659868b4727%3A0xf39a771705e23170!2sCVR%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1592983064232!5m2!1sen!2sin"
+                        width="300" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="/script3.js"></script>
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
